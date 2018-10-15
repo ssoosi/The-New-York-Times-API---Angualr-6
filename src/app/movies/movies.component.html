@@ -1,0 +1,17 @@
+<mat-card>
+    <h1><button  mat-mini-fab color="accent"><i class="fas fa-film"></i></button> Latest Movie Reviews</h1><hr>
+  <div *ngFor ="let movie of movies | async">
+    <mat-card-title>{{movie.display_title}}</mat-card-title>
+    <mat-card-subtitle>
+      Published by {{movie.byline}} on {{movie.publication_date}}
+    </mat-card-subtitle>
+    <img class="movie_img" src="{{movie.multimedia.src}}">
+    <mat-card-content>{{movie.summary_short}}</mat-card-content>
+    <mat-card-actions>
+      <button mat-menu-item>
+        <span><a href="{{movie.link.url}}" target="_blank"><button  mat-raised-button color="primary"> Read More</button></a></span>
+      </button>
+    </mat-card-actions>
+    <hr>
+  </div>
+</mat-card>

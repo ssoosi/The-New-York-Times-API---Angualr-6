@@ -1,0 +1,31 @@
+<!-- Navigation menu -->
+<mat-card>
+  <div>
+    <mat-toolbar color="primary">
+      <span><a href="/"><img class="logo" src="src/img/new-york-times-logo-white-png-4.png" alt="home"></a></span>
+      <button mat-button [matMenuTriggerFor]="menu"><button mat-fab color="primary"><i class="fas fa-bars"></i></button></button>
+    </mat-toolbar>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon><i class="fas fa-home"></i></mat-icon>
+        <span><a href="/">Home</a></span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon><i class="fas fa-book"></i></mat-icon>
+        <span><a routerLink="/books">Books</a></span>
+      </button>
+      <button mat-menu-item disabled>
+        <mat-icon><i class="fas fa-film"></i></mat-icon>
+        <span><a routerLink="/movies">Movies Reviews </a></span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon><i class="far fa-newspaper"></i></mat-icon>
+        <span><a routerLink="/stories">Latest World Stories</a></span>
+      </button>
+    </mat-menu>
+  </div>
+</mat-card>
+
+<!-- Routing Outlet Setup -->
+<router-outlet></router-outlet>
+   

@@ -1,0 +1,14 @@
+<mat-card>
+
+    <h1><button  mat-mini-fab color="primary"> <i class="fas fa-book"></i></button> Latest Books Name</h1><hr>
+  <div *ngFor ="let book of books | async">
+    <mat-card-title>{{book.title}}</mat-card-title>
+    <mat-card-subtitle>
+      Publisher : {{book.publisher}}<br>
+      Author : {{book.author}}
+    </mat-card-subtitle>
+    <img mat-card-image src="">
+    <mat-card-content>{{book.description}}</mat-card-content>
+    <hr>
+  </div>
+</mat-card>

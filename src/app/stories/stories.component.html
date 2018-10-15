@@ -1,0 +1,17 @@
+<mat-card>
+  <h1><button mat-mini-fab color="warn"><i class="far fa-newspaper"></i></button> Latest World Stories</h1><hr>
+  <div *ngFor ="let story of stories | async">
+    <mat-card-title>{{story.title}}</mat-card-title>
+    <mat-card-subtitle>
+      Published {{story.byline}} on {{story.created_date}}
+    </mat-card-subtitle>
+    <img mat-card-image src="{{story.multimedia.url}}">
+    <mat-card-content>{{story.abstract}}</mat-card-content>
+    <mat-card-actions>
+      <button mat-menu-item>
+        <span><a href="{{story.url}}" target="_blank"><button  mat-raised-button color="warn"> Read More</button></a></span>
+      </button>
+    </mat-card-actions>
+    <hr>
+  </div>
+</mat-card>
