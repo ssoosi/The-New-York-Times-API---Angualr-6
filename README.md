@@ -1,8 +1,8 @@
-# The New York Times API with Angualr 6
+# The New York Times API with Angular 6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
-Integrating the Angualar 6 with the nytimes api. 
-The Application has three component categories which is: Books, Movies, Lastest News
+Integrating the Angular 6 with the NYTimes API.
+The Application has three component categories which are: Books, Movies, Lastest News
 
 ## The New York Times Developer Network API
 https://developer.nytimes.com/
