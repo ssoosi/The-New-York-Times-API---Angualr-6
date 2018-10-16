@@ -1,6 +1,11 @@
-# Nym2018
+# The New York Times API Angualr 6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+Integrating the Angualar 6 with the nytimes api. 
+The Application has three component categories which is: Books, Movies, Lastest News
+
+## The New York Times Developer Network API
+https://developer.nytimes.com/
 
 ## Development server
 
