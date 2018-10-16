@@ -1,4 +1,4 @@
-# The New York Times API Angualr 6
+# The New York Times API with Angualr 6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 Integrating the Angualar 6 with the nytimes api. 
