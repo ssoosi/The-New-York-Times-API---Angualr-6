@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 Integrating the Angular 6 with the NYTimes API.
-The Application has three component categories which are: Books, Movies, Lastest News
+The Application has three component categories which are: Books, Movies, Lastest News which all connects to The New York Times Developer Network API.
 
 ## The New York Times Developer Network API
 https://developer.nytimes.com/
